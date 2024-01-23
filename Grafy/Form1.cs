@@ -73,7 +73,7 @@ namespace Grafy
                     if (w.Odleglosc(e.Location) < r)
                     {
                         MouseDownWierzcholek.Nastpniki.Add(w);
-                        w.Nastpniki.Add(MouseDownWierzcholek);
+                      //  w.Nastpniki.Add(MouseDownWierzcholek);
                     }
                 }
                 MouseDownWierzcholek = null;
